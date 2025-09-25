@@ -1,0 +1,62 @@
+# Exported from Fuse 1.3.0
+
+newmtl Top
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd medNovo_Top_diffuse.png
+map_Ks medNovo_Top_specular.png
+bump medNovo_Top_normal.png
+map_Ns medNovo_Top_gloss.png
+
+newmtl Hair
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd medNovo_Hair_diffuse.png
+map_Ks medNovo_Hair_specular.png
+bump medNovo_Hair_normal.png
+map_Ns medNovo_Hair_gloss.png
+
+newmtl Body
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd medNovo_Body_diffuse.png
+map_Ks medNovo_Body_specular.png
+bump medNovo_Body_normal.png
+map_Ns medNovo_Body_gloss.png
+
+newmtl Shoes
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd medNovo_Shoes_diffuse.png
+map_Ks medNovo_Shoes_specular.png
+bump medNovo_Shoes_normal.png
+map_Ns medNovo_Shoes_gloss.png
+
+newmtl Bottom
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd medNovo_Bottom_diffuse.png
+map_Ks medNovo_Bottom_specular.png
+bump medNovo_Bottom_normal.png
+map_Ns medNovo_Bottom_gloss.png
+

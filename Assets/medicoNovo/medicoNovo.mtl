@@ -1,0 +1,74 @@
+# Exported from Fuse 1.3.0
+
+newmtl Beard
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd medicoNovo_Beard_diffuse.png
+map_Ks medicoNovo_Beard_specular.png
+bump medicoNovo_Beard_normal.png
+map_Ns medicoNovo_Beard_gloss.png
+
+newmtl Moustache
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd medicoNovo_Moustache_diffuse.png
+map_Ks medicoNovo_Moustache_specular.png
+bump medicoNovo_Moustache_normal.png
+map_Ns medicoNovo_Moustache_gloss.png
+
+newmtl Bottom
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd medicoNovo_Bottom_diffuse.png
+map_Ks medicoNovo_Bottom_specular.png
+bump medicoNovo_Bottom_normal.png
+map_Ns medicoNovo_Bottom_gloss.png
+
+newmtl Body
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd medicoNovo_Body_diffuse.png
+map_Ks medicoNovo_Body_specular.png
+bump medicoNovo_Body_normal.png
+map_Ns medicoNovo_Body_gloss.png
+
+newmtl Shoes
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd medicoNovo_Shoes_diffuse.png
+map_Ks medicoNovo_Shoes_specular.png
+bump medicoNovo_Shoes_normal.png
+map_Ns medicoNovo_Shoes_gloss.png
+
+newmtl Top
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd medicoNovo_Top_diffuse.png
+map_Ks medicoNovo_Top_specular.png
+bump medicoNovo_Top_normal.png
+map_Ns medicoNovo_Top_gloss.png
+
