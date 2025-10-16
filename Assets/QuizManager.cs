@@ -85,42 +85,43 @@ public class QuizManager : MonoBehaviour
     {
         perguntasRenal.AddRange(new Pergunta[]
         {
-            new() { pergunta = "A Doença Renal Crônica pode causar inchaço nos pés e tornozelos?", respostaCorreta = 0 },
-            new() { pergunta = "Está relacionada com diabetes?", respostaCorreta = 0 },
-            new() { pergunta = "Não afeta a pressão arterial.", respostaCorreta = 1 },
-            new() { pergunta = "Pode causar fadiga e cansaço excessivo?", respostaCorreta = 0 },
-            new() { pergunta = "A função renal pode piorar ao longo do tempo?", respostaCorreta = 0 },
-            new() { pergunta = "Pode causar alterações na urina?", respostaCorreta = 0 },
-            new() { pergunta = "A pressão alta é uma das principais causas.", respostaCorreta = 0 },
-            new() { pergunta = "O tratamento com diálise é sempre necessário.", respostaCorreta = 1 },
-            new() { pergunta = "É mais comum em pessoas idosas.", respostaCorreta = 0 }
+            new() { pergunta = "Inchaço nos pés ou tornozelos pode indicar um problema relacionado à função renal?", respostaCorreta = 0 },
+            new() { pergunta = "Alterações no nível de glicose no sangue podem afetar a função dos rins?", respostaCorreta = 0 },
+            new() { pergunta = "A pressão arterial não tem relação com a saúde dos rins?", respostaCorreta = 1 },
+            new() { pergunta = "Cansaço excessivo e falta de energia podem estar relacionados a uma condição renal?", respostaCorreta = 0 },
+            new() { pergunta = "Problemas nos rins podem piorar ao longo do tempo se não tratados adequadamente?", respostaCorreta = 0 },
+            new() { pergunta = "Mudanças na urina, como cor ou volume, podem ser sinais de um problema nos rins?", respostaCorreta = 0 },
+            new() { pergunta = "Pressão alta é um fator comum que contribui para o declínio da função renal?", respostaCorreta = 0 },
+            new() { pergunta = "Em estágios avançados, pode ser necessário recorrer a tratamentos como a diálise?", respostaCorreta = 1 },
+            new() { pergunta = "O envelhecimento pode aumentar o risco de disfunção renal?", respostaCorreta = 0 }
         });
-
 
         perguntasPielonefrite.AddRange(new Pergunta[]
         {
-            new() { pergunta = "Pode causar febre alta e dor nas costas?", respostaCorreta = 0 },
-            new() { pergunta = "É uma infecção nos rins causada por bactérias.", respostaCorreta = 0 },
-            new() { pergunta = "Não é tratada com antibióticos.", respostaCorreta = 1 },
-            new() { pergunta = "Pode ser uma complicação de uma infecção urinária.", respostaCorreta = 0 },
-            new() { pergunta = "A dor ao urinar é um sintoma comum.", respostaCorreta = 0 },
-            new() { pergunta = "É uma infecção crônica e não desaparece.", respostaCorreta = 1 },
-            new() { pergunta = "A febre alta é um sintoma clássico.", respostaCorreta = 0 },
-            new() { pergunta = "É mais comum em homens.", respostaCorreta = 1 },
-            new() { pergunta = "O tratamento com antibióticos é fundamental.", respostaCorreta = 0 }
+            new() { pergunta = "Febre alta acompanhada de dor nas costas pode ser um sinal de infecção nos rins?", respostaCorreta = 0 },
+            new() { pergunta = "Infecções no trato urinário podem se espalhar para os rins?", respostaCorreta = 0 },
+            new() { pergunta = "Infecções renais podem ser tratadas com antibióticos?", respostaCorreta = 0 },
+            new() { pergunta = "Dor ao urinar pode ser um sintoma de infecção urinária que atinge os rins?", respostaCorreta = 0 },
+            new() { pergunta = "A febre alta é um sintoma comum em infecções graves nos rins?", respostaCorreta = 0 },
+            new() { pergunta = "Febre persistente, associada a dores nos rins, pode indicar uma infecção séria?", respostaCorreta = 0 },
+            new() { pergunta = "Infecções nos rins podem causar complicações se não tratadas de forma adequada?", respostaCorreta = 0 },
+            new() { pergunta = "Homens têm menor risco de infecções urinárias graves nos rins em comparação com mulheres?", respostaCorreta = 1 },
+            new() { pergunta = "O tratamento antibiótico é essencial para infecções renais?", respostaCorreta = 0 }
         });
+
         perguntasNefrotica.AddRange(new Pergunta[]
         {
-            new() { pergunta = "Pode causar inchaço nas pernas e nos olhos?", respostaCorreta = 0 },
-            new() { pergunta = "O corpo perde proteína pela urina.", respostaCorreta = 0 },
-            new() { pergunta = "É uma infecção urinária.", respostaCorreta = 1 },
-            new() { pergunta = "Leva ao acúmulo de líquidos no corpo.", respostaCorreta = 0 },
-            new() { pergunta = "Pode causar ganho de peso rápido devido ao inchaço.", respostaCorreta = 0 },
-            new() { pergunta = "Pode ser causada por diabetes.", respostaCorreta = 0 },
-            new() { pergunta = "Mais comum em crianças do que em adultos.", respostaCorreta = 0 },
-            new() { pergunta = "Pode ser tratada com antibióticos.", respostaCorreta = 1 },
-            new() { pergunta = "Pode precisar de corticoides no tratamento.", respostaCorreta = 0 }
+            new() { pergunta = "Inchaço nas pernas ou ao redor dos olhos pode ser causado por problemas renais?", respostaCorreta = 0 },
+            new() { pergunta = "A perda excessiva de proteína na urina pode ser indicativa de distúrbios nos rins?", respostaCorreta = 0 },
+            new() { pergunta = "Infecções urinárias podem agravar condições renais que afetam a função do organismo?", respostaCorreta = 1 },
+            new() { pergunta = "Acúmulo de líquidos no corpo pode ser um sinal de complicações renais?", respostaCorreta = 0 },
+            new() { pergunta = "Ganho de peso rápido devido a inchaço é um sintoma de problemas nos rins?", respostaCorreta = 0 },
+            new() { pergunta = "Alterações hormonais e glicose descontrolada podem afetar a saúde renal?", respostaCorreta = 0 },
+            new() { pergunta = "Essa condição é mais prevalente em crianças do que em adultos?", respostaCorreta = 0 },
+            new() { pergunta = "O uso de medicamentos como corticoides pode ajudar no tratamento de distúrbios renais?", respostaCorreta = 0 },
+            new() { pergunta = "Antibióticos são usados no tratamento de doenças renais que causam alterações no metabolismo da proteína?", respostaCorreta = 1 }
         });
+
     }
 
     void SortearDoenca()
