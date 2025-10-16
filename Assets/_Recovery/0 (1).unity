@@ -133,7 +133,7 @@ GameObject:
   - component: {fileID: 14614310}
   - component: {fileID: 14614309}
   m_Layer: 0
-  m_Name: Button (2)
+  m_Name: SindromeButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1471,7 +1471,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Voc\xEA deseja arriscar e ir para pergunta final por 20 pontos?"
+  m_text: "Voc\xEA deseja arriscar e ir para pergunta final por 15 pontos?"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2765,7 +2765,7 @@ GameObject:
   - component: {fileID: 1104952166}
   - component: {fileID: 1104952165}
   m_Layer: 0
-  m_Name: Button (1)
+  m_Name: PolienefriteButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3428,6 +3428,7 @@ GameObject:
   - component: {fileID: 1241864420}
   - component: {fileID: 1241864419}
   - component: {fileID: 1241864418}
+  - component: {fileID: 1241864422}
   - component: {fileID: 1241864423}
   m_Layer: 0
   m_Name: ContainerQuiz
@@ -3535,6 +3536,32 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &1241864422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1241864416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3b5f86b203d17b4690f7a97d29ffa34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::QuizManager
+  perguntaTexto: {fileID: 337538993}
+  botaoSim: {fileID: 1907816824}
+  botaoNao: {fileID: 1426802254}
+  botaoSimArriscar: {fileID: 761535069}
+  botaoNaoArriscar: {fileID: 1171034972}
+  botaoDoencaRenalCronica: {fileID: 1803800140}
+  botaoSindromeNefrotica: {fileID: 1104952166}
+  botaoPolienefrite: {fileID: 14614310}
+  painelResultado: {fileID: 901530840}
+  resultadoTexto: {fileID: 2102505274}
+  painelQuiz: {fileID: 228991991}
+  painelDoencaEscolha: {fileID: 1942398030}
+  painelPerguntaContinuar: {fileID: 2105887687}
+  painelFinal: {fileID: 1942398030}
 --- !u!114 &1241864423
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4478,7 +4505,7 @@ GameObject:
   - component: {fileID: 1803800140}
   - component: {fileID: 1803800139}
   m_Layer: 0
-  m_Name: Button
+  m_Name: RealCronica
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5900,64 +5927,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2012849171}
   m_CullTransparentMesh: 1
---- !u!1 &2064717553
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2064717555}
-  - component: {fileID: 2064717554}
-  m_Layer: 0
-  m_Name: quizManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &2064717554
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2064717553}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c3b5f86b203d17b4690f7a97d29ffa34, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::QuizManager
-  perguntaTexto: {fileID: 337538993}
-  botaoSim: {fileID: 1907816824}
-  botaoNao: {fileID: 1426802254}
-  botaoSimArriscar: {fileID: 761535069}
-  botaoNaoArriscar: {fileID: 1171034972}
-  botaoDoencaRenalCronica: {fileID: 1803800140}
-  botaoSindromeNefrotica: {fileID: 14614310}
-  botaoPolienefrite: {fileID: 1104952166}
-  painelResultado: {fileID: 901530840}
-  resultadoTexto: {fileID: 2102505274}
-  painelQuiz: {fileID: 228991991}
-  painelDoencaEscolha: {fileID: 1942398030}
-  painelPerguntaContinuar: {fileID: 2105887687}
-  painelFinal: {fileID: 1942398030}
---- !u!4 &2064717555
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2064717553}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.59253, y: 0, z: 1.77328}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2102505272
 GameObject:
   m_ObjectHideFlags: 0
@@ -6456,4 +6425,3 @@ SceneRoots:
   - {fileID: 351872560}
   - {fileID: 1859037088}
   - {fileID: 1741751735}
-  - {fileID: 2064717555}
