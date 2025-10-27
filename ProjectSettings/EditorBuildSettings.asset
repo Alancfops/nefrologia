@@ -8,6 +8,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/MenuScene.unity
+    guid: bc728d1600a820247a54ac4c9423d886
+  - enabled: 1
+    path: Assets/Scenes/Main VR Scene.unity
+    guid: ef44274cfc0d4f448aca8f585e5cdb49
+  - enabled: 1
+    path: Assets/Scenes/SegundoGamePaciente.unity
+    guid: e407237657353cd4d95bda7512a7a6af
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 455126e24e6eb3c4480d812be7945a14, type: 2}
