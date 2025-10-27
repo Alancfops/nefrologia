@@ -147,7 +147,12 @@ public class QuizManager : MonoBehaviour
         {
             Pergunta p = perguntasAtuais[indiceAtual];
             perguntaTexto.text = p.pergunta;
+
+            // apos finalizar as perguntas, chamar pergunta final. chama quando responder 10 perguntas
+            if (indiceAtual == perguntasAtuais.Count - 1)
+                MostrarPerguntaFinal();
         }
+        // chamar pergunta final quando iindice atual chegar em 10
         else MostrarResultado();
     }
 
@@ -176,6 +181,7 @@ public class QuizManager : MonoBehaviour
     {
         DesativarTelas();
         painelFinal.SetActive(true);
+        
     }
 
     void PerguntarSeQuerArriscar()
